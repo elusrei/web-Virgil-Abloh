@@ -1,3 +1,3 @@
 # web-Virgil-Abloh
-pagina web sobre los estilos graficos de sus instancias con off white, louis vuitton, Rolls Royce.
-TP2 de IG 2024
+Página web sobre los estilos gráficos de sus instancias con Off-White, Louis Vuitton, Mercedez Benz. + el perfil de 2 artistas relacionados.
+TP2 de IG 2024, UNA Multimediales.
