@@ -24,9 +24,10 @@
 
         <!-- 1 -->
         <div class="grid grid-cols-4 h-72">
-        <img class="h-72 aspect-w-1 aspect-h-1" 
+        <img class="max-h-72" 
             src="img/ow logo.png" alt="Logo de Off-White">
-        <iframe class="w-full col-span-3 h-72"  src="https://www.youtube.com/embed/bDVOFZ541CA?si=BtEGcMZTJB_iWFp-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe class="w-full col-span-3 h-72"  
+                src="https://www.youtube.com/embed/bDVOFZ541CA?si=BtEGcMZTJB_iWFp-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <!-- 2 -->
@@ -34,7 +35,9 @@
         <p class="h-72 overflow-y-auto">
             Data de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData de Virgil con Off-WhiteData 
         </p>
-        <img class="col-span-2 h-72 w-full" height="30" src="img/ow producto.png" alt="Producto de Off-White">
+        <div class="col-span-2 h-72 w-full overflow-hidden"> <!-- Contenedor con overflow-hidden -->
+            <img class="h-full w-full object-cover" src="img/ow producto.png" alt="Producto de Off-White">
+        </div>
         </div>
 
         <!--Galeria-->
@@ -53,8 +56,10 @@
 
         <!-- 5 -->
         <div class="grid grid-cols-4">
-            <img class="order-2 h-72" 
-                src="img/ow local.png" alt="Local de Off-White">
+            <div class="order-2 h-72 w-full overflow-hidden"> <!-- Contenedor para la imagen -->
+                <img class="h-full w-full object-cover" 
+                     src="img/ow local.png" alt="Local de Off-White">
+            </div>
             <article class="col-span-3 order-1">
             <h3 class="font-bold">Locales</h3>
             <p class="h-72 overflow-y-auto">

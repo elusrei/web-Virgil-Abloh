@@ -25,16 +25,18 @@
 
         <!-- 1 -->
         <div class="grid grid-cols-4 h-72">
-            <img class="h-72" src="img/lv logo.png" alt="Logo de Louis Vuitton">
+            <img class="max-h-72" src="img/lv logo.png" alt="Logo de Louis Vuitton">
         <iframe class="w-full col-span-3 h-72" src="https://www.youtube.com/embed/tCIylYtd8DA?si=izsJIc6MtHz5sh21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <!-- 2 -->
-        <div class="grid grid-cols-4">
-            <p class="h-72 overflow-y-auto">
+        <div class="grid grid-cols-4 h-72">
+            <p class="overflow-y-auto">
                 Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton Data de Virgil con Louis Vuitton 
         </p>
-        <img class="col-span-2 h-72 w-full" height="30" src="img/lv producto.png" alt="Producto de Louis Vuitton">
+        <div class="col-span-2 w-full h-full overflow-hidden"> <!-- Contenedor con overflow-hidden -->
+            <img class="w-full h-full object-cover" height="30" src="img/lv producto.png" alt="Producto de Louis Vuitton">
+        </div>
         </div>
 
         <!--Galeria-->
@@ -53,8 +55,10 @@
 
         <!-- 5 -->
         <div class="grid grid-cols-4">
-            <img class="order-2 h-72" 
-                 src="img/lv local.png" alt="Local de Louis Vuitton">
+            <div class="order-2 h-72 w-full overflow-hidden"> <!-- Contenedor para la imagen -->
+                <img class="h-full w-full object-cover" 
+                     src="img/lv local.png" alt="Local de Louis Vuitton">
+            </div>
             <article class="col-span-3 order-1">
             <h3 class="font-bold">Locales</h3>
             <p class="h-72 overflow-y-auto">

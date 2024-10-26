@@ -19,30 +19,51 @@
         </ul>
     </nav>
     <main>
-        <img src="img/travis concierto.png" alt="recital en vivo de travis"><!--horizontal-->
-        <img src="img/travis perfil.png" alt="perfil del travis"><!--cuadrado-->
-        
-        <h2 class="font-bold">Travis Scott</h2>
-        <img src="img/travis outfit.png" alt="Travis Scott caminando por la calle"><!--Vertical-->
-        <article>
+        <!-- 1 -->
+        <div class="h-96 relative max-w-[calc(3*18rem)] mx-auto">
+        <img class="h-80 min-w-min absolute top-0 right-0"
+            src="img/travis concierto.png" alt="recital en vivo de travis"> <!--horizontal-->
+        <img class="max-h-72 absolute bottom-0 left-0 z-10"
+            src="img/travis perfil.png" alt="perfil del travis"><!--cuadrado-->
+        </div>
+
+
+        <!-- 2 -->
+        <div class="grid grid-cols-3 h-full max-w-[calc(3*18rem)] mx-auto">
+        <img class="max-w-72" 
+            src="img/travis outfit.png" alt="Travis Scott caminando por la calle"><!--Vertical-->
+        <article class="col-start-2 col-span-2 relative">
+            <h2 class="font-bold text-5xl">Travis Scott</h2>
             <ul>
                 <li>Altura: </li>
                 <li>aka's: La Flame, Cactus Jack</li>
                 <li>Bank Account: </li>
                 <li>Altura: </li>
             </ul>
-            <p>
+
+            <!-- VIDEO CANCION -->
+            <iframe class="w-full h-2/4"
+                     src="https://www.youtube.com/embed/KPz33BLkvho?si=ZaRcV6V5uXrhkf-d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <p class="col-span-2 absolute bottom-0">
                 Travis Scott, rapero, productor y creativo, es conocido por sus presentaciones en vivo llenas de energía y su influencia tanto en la música como en la moda. Con colaboraciones que van desde Nike hasta McDonald's, Travis ha logrado mezclar lo comercial con lo artístico, redefiniendo constantemente su marca personal. Entre sus grandes éxitos, "Astroworld" lo consolidó como una de las estrellas más importantes del hip hop.
             </p>
         </article>
+        </div>
 
-        <article>
-            <h3 class="font-bold">Cactus Jack</h3>
+        <!-- VIDEO VIVO -->
+        <iframe class="w-full h-96"
+                 src="https://www.youtube.com/embed/7Q-WGjqpIvY?si=U11nCccqT9_YysZ2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!-- 3 -->
+        <article class="max-w-[calc(3*18rem)] mx-auto">
+            <h3 class="font-bold text-center text-5xl">Cactus Jack</h3>
+            <div class="grid grid-cols-3 relative">
             <img src="img/travis logo.png" alt="logo Nike Cactus Jack">
-            <p>
+            <p class="col-start-2 col-span-2 absolute bottom-0">
                 Descubre las Nike Cactus Jack, donde la creatividad y el estilo de Travis Scott se fusionan con la innovación de Nike. Estas zapatillas, con detalles únicos y un diseño vanguardista, redefinen lo que significa estar a la moda. Hechas con materiales de alta calidad, las Nike Cactus Jack ofrecen no solo comodidad, sino también una estética que rompe esquemas. Únete al legado de Travis y lleva tu estilo al próximo nivel con esta colaboración exclusiva.
             </p>
-            
+        </div>
             
             <img src="img/travis producto.png" alt="zapatilla Nike">
             
