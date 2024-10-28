@@ -5,40 +5,70 @@
     <title>Lelus</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="flex justify-center items-center min-h-screen">
 <div class="container">
-    <head>
-        <h1><a href="../index.html">Virgil Abloh</a></h1>
-    </head>
+
+<header class="bg-gray-800 text-white p-4 text-center">
+    <h1 class="text-2xl font-bold mb-4">
+        <a href="../index.html" class="hover:text-gray-300">Virgil Abloh</a>
+    </h1>
     <nav>
-        <ul>
-            <li><a href="../virgil-off-white.html">virgil-off-white</a></li>
-            <li><a href="../virgil-louis-vuitton.html">virgil-louis-vuitton</a></li>
-            <li><a href="../virgil-mercedes.html">virgil-mercedes</a></li>
-            <li><a href="../otros-artistas/index.html">virgil-con-otros-artistas</a></li>
+        <ul class="flex flex-row justify-center space-x-4">
+            <li>
+                <a href="../virgil-off-white.html" class="block rounded-3xl overflow-hidden duration-500 relative">
+                    <img src="../img/nav-ow-.png" alt="virgil-off-white" class="w-full h-full object-cover hover:opacity-0 duration-500 z-10">
+                    <img src="../img/nav-ow-hover.png" alt="virgil-off-white-hover" class="w-full h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                </a>
+            </li>
+            <li>
+                <a href="../virgil-louis-vuitton.html" class="block rounded-3xl overflow-hidden duration-500 relative">
+                    <img src="../img/nav-lv.png" alt="virgil-louis-vuitton" class="w-full h-full object-cover hover:opacity-0 duration-500 z-10">
+                    <img src="../img/nav-lv-hover.png" alt="virgil-louis-vuitton-hover" class="w-full h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                </a>
+            </li>
+            <li>
+                <a href="../virgil-mercedes.html" class="block rounded-3xl overflow-hidden duration-500 relative">
+                    <img src="../img/nav-mercedes.png" alt="virgil-mercedes" class="w-full h-full object-cover hover:opacity-0 duration-500 z-10">
+                    <img src="../img/nav-mercedes-hover.png" alt="virgil-mercedes-hover" class="w-full h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                </a>
+            </li>
+            <li>
+                <a href="../otros-artistas/index.html" class="block rounded-3xl overflow-hidden duration-500 relative">
+                    <img src="../img/nav-artistas.png" alt="virgil-con-otros-artistas" class="w-full h-full object-cover hover:opacity-0 duration-500 z-10">
+                    <img src="../img/nav-artistas-hover.png" alt="virgil-con-otros-artistas-hover" class="w-full h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                </a>
+            </li>
         </ul>
-    </nav>
-    <main>
-        <a class="shadow-xl rounded-3xl block h-96 bg-no-repeat bg-cover bg-center flex items-center justify-center hover:blur-sm hover:brightness-90 duration-1000" 
-            style="background-image: url('img/virgil y kanye.png');"
-            href="perfil-kanye.html">
-
-        <h2 class="text-white text-2xl font-bold">
-        Kanye West
-        </h2>
-        </a>
         
-        <a class="shadow-xl rounded-3xl block h-96 bg-no-repeat bg-cover flex items-center justify-center" 
-            style="background-image: url('img/virgil y travis.png');"
-            href="perfil-travis.html">
+    </nav>
+</header>
 
-            <h2 class="text-white text-2xl font-bold">
-            Travis Scott
+    
+    <main>
+        <a class="shadow-lg relative block h-96 overflow-hidden group rounded-3xl" href="perfil-kanye.html">
+            <!-- Imagen con el efecto hover solo dentro de la clase de imagen -->
+            <img class="w-full h-full object-cover group-hover:blur-lg group-hover:brightness-90 duration-700" 
+                 src="img/virgil-y-kanye.png" alt="Kanye West y Virgil Abloh">
+            <!-- Texto encima de la imagen, sin efectos de hover -->
+            <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold z-10 hover:text-5xl duration-1000">
+                Kanye West
             </h2>
         </a>
+        
+     <a class="shadow-lg relative block h-96 overflow-hidden group rounded-3xl" href="perfil-travis.html">
+        <!-- Imagen con el efecto hover solo dentro de la clase de imagen -->
+        <img class="w-full h-full object-cover group-hover:blur-lg group-hover:brightness-90 duration-700" 
+             src="img/virgil-y-travis.png" alt="Travis Scott">
+        <!-- Texto encima de la imagen, sin efectos de hover -->
+        <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold z-10 hover:text-5xl duration-1000">
+            Travis Scott
+        </h2>
+    </a>
+    
     </main>
     <footer>
         <!-- Hacer el footer sticky con los dos links al contacto y desarrolladxr-->
+        <a href="../mas-sobre-el-desarrollador/index.html">Loguito</a>
     </footer>
 </div>
 </body>

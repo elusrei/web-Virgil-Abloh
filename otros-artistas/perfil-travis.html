@@ -5,13 +5,13 @@
     <title>travis</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="flex justify-center items-center min-h-screen">
 <div class="container">
-    <head>
+    <header>
         <h1><a href="../index.html">Virgil Abloh</a></h1>
-    </head>
+    </header>
     <nav>
-        <ul>
+        <ul class="flex flex-row">    
             <li><a href="../virgil-off-white.html">virgil-off-white</a></li>
             <li><a href="../virgil-louis-vuitton.html">virgil-louis-vuitton</a></li>
             <li><a href="../virgil-mercedes.html">virgil-mercedes</a></li>
@@ -22,28 +22,38 @@
         <!-- 1 -->
         <div class="h-96 relative max-w-[calc(3*18rem)] mx-auto">
         <img class="h-80 min-w-min absolute top-0 right-0"
-            src="img/travis concierto.png" alt="recital en vivo de travis"> <!--horizontal-->
+            src="img/travis-concierto.png" alt="recital en vivo de travis"> <!--horizontal-->
         <img class="max-h-72 absolute bottom-0 left-0 z-10"
-            src="img/travis perfil.png" alt="perfil del travis"><!--cuadrado-->
+            src="img/travis-perfil.png" alt="perfil del travis"><!--cuadrado-->
         </div>
 
 
         <!-- 2 -->
         <div class="grid grid-cols-3 h-full max-w-[calc(3*18rem)] mx-auto">
         <img class="max-w-72" 
-            src="img/travis outfit.png" alt="Travis Scott caminando por la calle"><!--Vertical-->
+            src="img/travis-outfit.png" alt="Travis Scott caminando por la calle"><!--Vertical-->
         <article class="col-start-2 col-span-2 relative">
             <h2 class="font-bold text-5xl">Travis Scott</h2>
+
+            <div class="grid grid-cols-2">
             <ul>
-                <li>Altura: </li>
                 <li>aka's: La Flame, Cactus Jack</li>
-                <li>Bank Account: </li>
-                <li>Altura: </li>
+                <li>Bank Account: u$s80 millones</li>
+                <li>Album's: 8</li>
+                <li>Canciones: 184</li>
             </ul>
+            <ul>
+                <li>Edad: </li>
+                <li>Bank Account: u$s80 millones</li>
+                <li>Album's: 8</li>
+                <li>Canciones: 184</li>
+            </ul>
+
+            </div>
 
             <!-- VIDEO CANCION -->
             <iframe class="w-full h-2/4"
-                     src="https://www.youtube.com/embed/KPz33BLkvho?si=ZaRcV6V5uXrhkf-d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                     src="https://www.youtube.com/embed/KPz33BLkvho?si=ZaRcV6V5uXrhkf-d" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             <p class="col-span-2 absolute bottom-0">
                 Travis Scott, rapero, productor y creativo, es conocido por sus presentaciones en vivo llenas de energía y su influencia tanto en la música como en la moda. Con colaboraciones que van desde Nike hasta McDonald's, Travis ha logrado mezclar lo comercial con lo artístico, redefiniendo constantemente su marca personal. Entre sus grandes éxitos, "Astroworld" lo consolidó como una de las estrellas más importantes del hip hop.
@@ -53,19 +63,19 @@
 
         <!-- VIDEO VIVO -->
         <iframe class="w-full h-96"
-                 src="https://www.youtube.com/embed/7Q-WGjqpIvY?si=U11nCccqT9_YysZ2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                 src="https://www.youtube.com/embed/7Q-WGjqpIvY?si=U11nCccqT9_YysZ2" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         <!-- 3 -->
         <article class="max-w-[calc(3*18rem)] mx-auto">
             <h3 class="font-bold text-center text-5xl">Cactus Jack</h3>
             <div class="grid grid-cols-3 relative">
-            <img src="img/travis logo.png" alt="logo Nike Cactus Jack">
+            <img src="img/travis-logo.png" alt="logo Nike Cactus Jack">
             <p class="col-start-2 col-span-2 absolute bottom-0">
                 Descubre las Nike Cactus Jack, donde la creatividad y el estilo de Travis Scott se fusionan con la innovación de Nike. Estas zapatillas, con detalles únicos y un diseño vanguardista, redefinen lo que significa estar a la moda. Hechas con materiales de alta calidad, las Nike Cactus Jack ofrecen no solo comodidad, sino también una estética que rompe esquemas. Únete al legado de Travis y lleva tu estilo al próximo nivel con esta colaboración exclusiva.
             </p>
         </div>
             
-            <img src="img/travis producto.png" alt="zapatilla Nike">
+            <img src="img/travis-producto.png" alt="zapatilla Nike">
             
             <!--banner con marcas
             <img src="" alt="Marca 1">
@@ -88,6 +98,7 @@
     </main>
     <footer>
         <!-- Hacer el footer sticky con los dos links al contacto y desarrolladxr-->
+        <a href="../mas-sobre-el-desarrollador/index.html">Loguito</a>
     </footer>
 </div>
 </body>
