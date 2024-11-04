@@ -2,25 +2,53 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Kanye</title>
+    <title>Kanye West | web sobre Virgil Abloh</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="flex justify-center items-center min-h-screen">
 <div class="container">
-    <header>
-        <h1><a href="../index.html">Virgil Abloh</a></h1>
+
+    <header class="bg-black text-white p-4 text-center rounded-3xl mt-4 bg-opacity-90">
+        <h1 class="text-3xl font-bold mt-4 mb-8">
+            <a href="../index.html" class="hover:text-gray-300">Virgil Abloh</a>
+        </h1>
+        <!-- Botón para mostrar/ocultar el menú en móvil -->
+        <button id="menu-toggle" class="md:hidden bg-white bg-opacity-50 py-2 px-8 rounded-lg focus:outline-none">
+            ☰
+        </button>
+        <nav>
+            <ul id="menu" class="flex flex-row justify-center space-x-4 md:flex md:flex-row md:space-x-4 flex-col hidden">
+                <li class="pl-12 py-2 pr-8 md:p-0">
+                    <a href="../virgil-off-white.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="../img/nav-ow-.png" alt="virgil-off-white" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="../img/nav-ow-hover.png" alt="virgil-off-white-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+                <li class="px-8 py-2 md:p-0">
+                    <a href="../virgil-louis-vuitton.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="../img/nav-lv.png" alt="virgil-louis-vuitton" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="../img/nav-lv-hover.png" alt="virgil-louis-vuitton-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+                <li class="px-8 py-2 md:p-0">
+                    <a href="../virgil-mercedes.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="../img/nav-mercedes.png" alt="virgil-mercedes" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="../img/nav-mercedes-hover.png" alt="virgil-mercedes-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+                <li class="px-8 py-2 md:p-0">
+                    <a href="../otros-artistas/index.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="../img/nav-artistas.png" alt="virgil-con-otros-artistas" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="../img/nav-artistas-hover.png" alt="virgil-con-otros-artistas-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul class="flex flex-row">
-            <li><a href="../virgil-off-white.html">virgil-off-white</a></li>
-            <li><a href="../virgil-louis-vuitton.html">virgil-louis-vuitton</a></li>
-            <li><a href="../virgil-mercedes.html">virgil-mercedes</a></li>
-            <li><a href="index.html">virgil-con-otros-artistas</a></li>
-        </ul>
-    </nav>
+
     <main>
         <!-- 1 -->
-        <div class="h-96 relative max-w-[calc(3*18rem)] mx-auto">
+        <div class="h-96 relative max-w-[calc(3*18rem)] mx-auto my-8">
         <img class="h-80 min-w-min absolute top-0 right-0"
             src="img/kanye-concierto.png" alt="recital en vivo de kanye"> <!--horizontal-->
         <img class="max-h-72 absolute bottom-0 left-0 z-10"
@@ -28,40 +56,40 @@
         </div>
 
         <!-- 2 -->
-        <div class="grid grid-cols-3 h-full max-w-[calc(3*18rem)] mx-auto">
-        <img class="max-w-72" 
-            src="img/kanye-outfit.png" alt="kanye west vestido de yeezy"><!--Vertical-->
-        <article class="col-start-2 col-span-2 relative">
-            <h2 class="font-bold text-5xl">Kanye West</h2>
-
-            <div class="grid grid-cols-2">
-            <ul>
-                <li>aka's: YE, Yeezus</li>
-                <li>Bank Account: u$s400 millones</li>
-                <li>Album's: 20</li>
-                <li>Canciones: 459</li>
-            </ul>
-            <ul>
-                <li>Edad: </li>
-                <li>Bank Account: u$s80 millones</li>
-                <li>Album's: 8</li>
-                <li>Canciones: 184</li>
-            </ul>
-
-            </div>
-
-            <!-- VIDEO CANCION -->
-            <iframe class="w-full h-2/4"
-                     src="https://www.youtube.com/embed/5hthMeEqf40?si=AtqaTg3Kuy3H1Std&amp;controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-            <p class="col-span-2 absolute bottom-0">
-                Kanye West, rapero, diseñador y filósofo autodidacta, conocido por redefinir la moda... y la modestia. Entre hits y polémicas, tiene la extraña habilidad de compararse con figuras históricas, lanzar zapatillas que parecen del futuro y siempre recordar al mundo que "Kanye es Kanye."
-            </p>
+        <div class="grid grid-cols-1 md:grid-cols-3 h-full max-w-[calc(3*18rem)] mx-auto my-8">
+            <img class="max-w-72 mx-auto" 
+                src="img/kanye-outfit.png" alt="kanye west vestido de yeezy"><!--Vertical-->
+            
+            <article class="col-span-1 md:col-start-2 md:col-span-2 relative">
+                <h2 class="font-bold text-5xl pl-5">Kanye West</h2>
+        
+                <div class="grid grid-cols-1 md:grid-cols-2 pl-5">
+                    <ul>
+                        <li>aka's: YE, Yeezus</li>
+                        <li>Bank Account: u$s400 millones</li>
+                        <li>Album's: 20</li>
+                        <li>Canciones: 459</li>
+                    </ul>
+                    <ul>
+                        <li>Edad: 47 años</li>
+                        <li>Grammys: 21</li>
+                    </ul>
+                </div>
+        
+                <!-- VIDEO CANCION -->
+                <iframe class="w-full h-60 md:pl-5 mt-4"
+                         src="https://www.youtube.com/embed/5hthMeEqf40?si=AtqaTg3Kuy3H1Std&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+                <p class="col-span-2 text-center md:text-start md:absolute md:bottom-0 md:pl-5 mt-4 md:mt-0">
+                    Kanye West, rapero, diseñador y filósofo autodidacta, conocido por redefinir la moda... y la modestia. Entre hits y polémicas, tiene la extraña habilidad de compararse con figuras históricas, lanzar zapatillas que parecen del futuro y siempre recordar al mundo que "Kanye es Kanye."
+                </p>
         </article>
         </div>
+        
+        
 
         <!-- VIDEO VIVO -->
-        <iframe class="w-full h-96"
+        <iframe class="w-full h-96 my-20"
                 src="https://www.youtube.com/embed/_ABk7TmjnVk?si=Br3fxz8S_ZYnf3ZG" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         <!-- 3 -->
@@ -69,7 +97,7 @@
             <h3 class="font-bold text-center text-5xl">Yeezy</h3>
             <div class="grid grid-cols-3 relative">
                 <img src="img/kanye-logo.png" alt="logo adidas yeezy">
-                <p class="col-start-2 col-span-2 absolute bottom-0">
+                <p class="col-start-2 col-span-2 absolute bottom-0 pl-5 max-h-32 overflow-y-auto">
                     Descubre las Yeezy, donde innovación y estilo se encuentran en cada paso. Con un diseño futurista y materiales de máxima calidad, nuestras zapatillas ofrecen una comodidad inigualable y un look que trasciende tendencias. Únete al movimiento Yeezy y lleva tu estilo al siguiente nivel. ¡Sé parte de lo exclusivo!
                 </p>
             </div>
@@ -81,23 +109,17 @@
             <img src="" alt="Marca 3">
             -->
         </article>
+        
 
-            <!--Vultures
-        <article>
-            <h3 class="font-bold" class="font-bold">Vultures</h3>
-            <img src="" alt="Logo Vultures">
-            <p>
-                Vultures. Blablabla.
-            </p>
-            <img src="" alt="Muchas personas vestidas de Vultures">
-        </article>
-        -->   
 
     </main>
-    <footer>
-        <!-- Hacer el footer sticky con los dos links al contacto y desarrolladxr-->
-        <a href="../mas-sobre-el-desarrollador/index.html">Loguito</a>
+    <footer class="fixed bottom-0 right-0 bg-white px-8 py-4 m-2 rounded-full shadow-lg z-30">
+        <a href="../mas-sobre-el-desarrollador/index.html" class="text-blue-500 text-5xl hover:text-blue-700">?</a>
     </footer>
 </div>
+
+<!-- Desplegable -->
+<script src="../js/desplegable.js"></script>
+
 </body>
 </html>

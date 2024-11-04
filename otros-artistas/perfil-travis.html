@@ -2,25 +2,53 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>travis</title>
+    <title>Travis Scott | web sobre Virgil Abloh </title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="flex justify-center items-center min-h-screen">
 <div class="container">
-    <header>
-        <h1><a href="../index.html">Virgil Abloh</a></h1>
+    
+    <header class="bg-black text-white p-4 text-center rounded-3xl mt-4 bg-opacity-90">
+        <h1 class="text-3xl font-bold mt-4 mb-8">
+            <a href="../index.html" class="hover:text-gray-300">Virgil Abloh</a>
+        </h1>
+        <!-- Botón para mostrar/ocultar el menú en móvil -->
+        <button id="menu-toggle" class="md:hidden bg-white bg-opacity-50 py-2 px-8 rounded-lg focus:outline-none">
+            ☰
+        </button>
+        <nav>
+            <ul id="menu" class="flex flex-row justify-center space-x-4 md:flex md:flex-row md:space-x-4 flex-col hidden">
+                <li class="pl-12 py-2 pr-8 md:p-0">
+                    <a href="../virgil-off-white.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="../img/nav-ow-.png" alt="virgil-off-white" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="../img/nav-ow-hover.png" alt="virgil-off-white-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+                <li class="px-8 py-2 md:p-0">
+                    <a href="../virgil-louis-vuitton.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="../img/nav-lv.png" alt="virgil-louis-vuitton" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="../img/nav-lv-hover.png" alt="virgil-louis-vuitton-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+                <li class="px-8 py-2 md:p-0">
+                    <a href="../virgil-mercedes.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="../img/nav-mercedes.png" alt="virgil-mercedes" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="../img/nav-mercedes-hover.png" alt="virgil-mercedes-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+                <li class="px-8 py-2 md:p-0">
+                    <a href="../otros-artistas/index.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="../img/nav-artistas.png" alt="virgil-con-otros-artistas" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="../img/nav-artistas-hover.png" alt="virgil-con-otros-artistas-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul class="flex flex-row">    
-            <li><a href="../virgil-off-white.html">virgil-off-white</a></li>
-            <li><a href="../virgil-louis-vuitton.html">virgil-louis-vuitton</a></li>
-            <li><a href="../virgil-mercedes.html">virgil-mercedes</a></li>
-            <li><a href="index.html">virgil-con-otros-artistas</a></li>
-        </ul>
-    </nav>
+
     <main>
         <!-- 1 -->
-        <div class="h-96 relative max-w-[calc(3*18rem)] mx-auto">
+        <div class="h-96 relative max-w-[calc(3*18rem)] mx-auto my-8">
         <img class="h-80 min-w-min absolute top-0 right-0"
             src="img/travis-concierto.png" alt="recital en vivo de travis"> <!--horizontal-->
         <img class="max-h-72 absolute bottom-0 left-0 z-10"
@@ -29,13 +57,13 @@
 
 
         <!-- 2 -->
-        <div class="grid grid-cols-3 h-full max-w-[calc(3*18rem)] mx-auto">
-        <img class="max-w-72" 
+        <div class="grid grid-cols-1 md:grid-cols-3 h-full max-w-[calc(3*18rem)] mx-auto my-8">
+        <img class="max-w-72 mx-auto" 
             src="img/travis-outfit.png" alt="Travis Scott caminando por la calle"><!--Vertical-->
-        <article class="col-start-2 col-span-2 relative">
-            <h2 class="font-bold text-5xl">Travis Scott</h2>
+        <article class="col-span-1 md:col-start-2 md:col-span-2 relative">
+            <h2 class="font-bold text-5xl pl-3">Travis Scott</h2>
 
-            <div class="grid grid-cols-2">
+            <div class="grid grid-cols-1 md:grid-cols-2 pl-5">
             <ul>
                 <li>aka's: La Flame, Cactus Jack</li>
                 <li>Bank Account: u$s80 millones</li>
@@ -43,34 +71,32 @@
                 <li>Canciones: 184</li>
             </ul>
             <ul>
-                <li>Edad: </li>
-                <li>Bank Account: u$s80 millones</li>
-                <li>Album's: 8</li>
-                <li>Canciones: 184</li>
+                <li>Edad: 32 años</li>
+                <li>Album "Utopia": 50 mil millones de reproducciones</li>
             </ul>
 
             </div>
 
             <!-- VIDEO CANCION -->
-            <iframe class="w-full h-2/4"
+            <iframe class="w-full h-60 md:pl-5 mt-4"
                      src="https://www.youtube.com/embed/KPz33BLkvho?si=ZaRcV6V5uXrhkf-d" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-            <p class="col-span-2 absolute bottom-0">
+            <p class="col-span-2 text-center md:text-start md:absolute md:bottom-0 md:pl-5 mt-4 md:mt-0">
                 Travis Scott, rapero, productor y creativo, es conocido por sus presentaciones en vivo llenas de energía y su influencia tanto en la música como en la moda. Con colaboraciones que van desde Nike hasta McDonald's, Travis ha logrado mezclar lo comercial con lo artístico, redefiniendo constantemente su marca personal. Entre sus grandes éxitos, "Astroworld" lo consolidó como una de las estrellas más importantes del hip hop.
             </p>
         </article>
         </div>
 
         <!-- VIDEO VIVO -->
-        <iframe class="w-full h-96"
+        <iframe class="w-full h-96 my-20"
                  src="https://www.youtube.com/embed/7Q-WGjqpIvY?si=U11nCccqT9_YysZ2" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         <!-- 3 -->
         <article class="max-w-[calc(3*18rem)] mx-auto">
-            <h3 class="font-bold text-center text-5xl">Cactus Jack</h3>
+            <h3 class="font-bold text-center text-5xl mb-4 md:mb-0">Cactus Jack</h3>
             <div class="grid grid-cols-3 relative">
             <img src="img/travis-logo.png" alt="logo Nike Cactus Jack">
-            <p class="col-start-2 col-span-2 absolute bottom-0">
+            <p class="col-start-2 col-span-2 absolute bottom-0 pl-5 max-h-32 overflow-y-auto">
                 Descubre las Nike Cactus Jack, donde la creatividad y el estilo de Travis Scott se fusionan con la innovación de Nike. Estas zapatillas, con detalles únicos y un diseño vanguardista, redefinen lo que significa estar a la moda. Hechas con materiales de alta calidad, las Nike Cactus Jack ofrecen no solo comodidad, sino también una estética que rompe esquemas. Únete al legado de Travis y lleva tu estilo al próximo nivel con esta colaboración exclusiva.
             </p>
         </div>
@@ -84,22 +110,18 @@
             -->
         </article>
 
-            <!--Vultures
-        <article>
-            <h3 class="font-bold" class="font-bold">Vultures</h3>
-            <img src="" alt="Logo Vultures">
-            <p>
-                Vultures. Blablabla.
-            </p>
-            <img src="" alt="Muchas personas vestidas de Vultures">
-        </article>
-        -->   
+           
 
     </main>
-    <footer>
-        <!-- Hacer el footer sticky con los dos links al contacto y desarrolladxr-->
-        <a href="../mas-sobre-el-desarrollador/index.html">Loguito</a>
+    <footer class="fixed bottom-0 right-0 bg-white px-8 py-4 m-2 rounded-full shadow-lg z-30">
+        <a href="../mas-sobre-el-desarrollador/index.html" class="text-blue-500 text-5xl hover:text-blue-700">?</a>
     </footer>
 </div>
+
+<!-- Desplegable -->
+<script src="../js/desplegable.js"></script>
+
 </body>
 </html>
+
+

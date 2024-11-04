@@ -2,58 +2,101 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Virgil - OFF-White</title>
+    <title>Virgil x Mercedes</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex justify-center items-center min-h-screen">
+<body class="flex justify-center items-center min-h-screen bg-repeat bg-top" style="background-image: url('img/mercedes-fondo-2.png'); background-size: 300px 300px;">
 <div class="container">
-    <header>
-        <h1><a href="index.html">Virgil Abloh</a></h1>
+
+    <header class="bg-black text-white p-4 text-center rounded-3xl mt-4 bg-opacity-90">
+        <h1 class="text-3xl font-bold mt-4 mb-8">
+            <a href="index.html" class="hover:text-gray-300">Virgil Abloh</a>
+        </h1>
+        <!-- Botón para mostrar/ocultar el menú en móvil -->
+        <button id="menu-toggle" class="md:hidden bg-white bg-opacity-50 py-2 px-8 rounded-lg focus:outline-none">
+            ☰
+        </button>
+        <nav>
+            <ul id="menu" class="flex flex-row justify-center space-x-4 md:flex md:flex-row md:space-x-4 flex-col hidden">
+                <li class="pl-12 py-2 pr-8 md:p-0">
+                    <a href="virgil-off-white.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="img/nav-ow-.png" alt="virgil-off-white" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="img/nav-ow-hover.png" alt="virgil-off-white-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+                <li class="px-8 py-2 md:p-0">
+                    <a href="virgil-louis-vuitton.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="img/nav-lv.png" alt="virgil-louis-vuitton" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="img/nav-lv-hover.png" alt="virgil-louis-vuitton-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+                <li class="px-8 py-2 md:p-0">
+                    <a href="virgil-mercedes.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="img/nav-mercedes.png" alt="virgil-mercedes" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="img/nav-mercedes-hover.png" alt="virgil-mercedes-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+                <li class="px-8 py-2 md:p-0">
+                    <a href="otros-artistas/index.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="img/nav-artistas.png" alt="virgil-con-otros-artistas" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="img/nav-artistas-hover.png" alt="virgil-con-otros-artistas-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul class="flex flex-row">
-            <li><a href="virgil-off-white.html">virgil-off-white</a></li>
-            <li><a href="virgil-louis-vuitton.html">virgil-louis-vuitton</a></li>
-            <li><a href="virgil-mercedes.html">virgil-mercedes</a></li>
-            <li><a href="otros-artistas/index.html">virgil-con-otros-artistas</a></li>
-        </ul>
-    </nav>
-    <main>
-        <article>
-            <h3>Project Geländewagen</h3>
-            <img src="img/mercedes-Gel.png" alt="Mercedes Project Geländewagen">
-            <p>
-                (2020)
+
+    <main class="mb-20">
+        <div class="mx-auto w-min bg-white bg-opacity-80 m-8 p-4 rounded-md">
+            <h2 class="font-bold text-5xl text-center whitespace-nowrap">Mercedes-Benz</h2></div>
+        <div class="bg-white rounded-md bg-opacity-85 p-4 mb-8">
+        <p class="mt-4 text-center mb-4 p-4">
+            La relación de Virgil Abloh con Mercedes-Benz comenzó en 2019, cuando el diseñador fue invitado a colaborar en un proyecto especial para la marca automotriz de lujo. A través de su visión innovadora y su enfoque artístico, Abloh logró transformar la percepción de los vehículos Mercedes, incorporando su distintivo estilo urbano y contemporáneo. Esta colaboración se materializó en varios proyectos destacados, incluyendo la remodelación del emblemático G-Class y la creación de ediciones limitadas como el Maybach S680. Abloh no solo aportó su estética única, sino que también exploró la intersección entre la moda y el diseño automotriz, estableciendo un nuevo estándar en el lujo contemporáneo y dejando un legado duradero en la industria automotriz. Su asociación con Mercedes-Benz fue una manifestación perfecta de cómo la creatividad puede redefinir los límites del diseño, haciendo de cada auto una obra de arte.
+        </p>
+    </div>
+        
+        <div>
+        <article class="bg-white rounded-md bg-opacity-85 mb-8">
+            <h3 class="text-center text-2xl font-bold pb-4 pt-2">Project Geländewagen</h3>
+            <img class="w-11/12 mx-auto rounded-md shadow-md" src="img/mercedes-Gel.png" alt="Mercedes Project Geländewagen">
+
+            <p class="mt-4 text-center p-4">
+                En 2020, Virgil colaboró con Mercedes-Benz para rediseñar la icónica G-Wagon, transformándola en una obra de arte de lujo. Con una estética blanco mate y detalles industriales, esta G-Class conceptual combinaba el estilo off-road con el minimalismo de Abloh. Fue subastada para beneficencia y se centró en la creación de una declaración de arte en lugar de una producción masiva.
             </p>
             <!--iframe-->
         </article>
 
-        <article>
-            <h3>Project MAYBACH</h3>
-            <img src="img/mercedes-may.png" alt="Mercedes Project MAYBACH">
-            <p>
-                (2021)
+        
+
+        <article class="bg-white rounded-md bg-opacity-85 mb-8">
+            <h3 class="text-center text-2xl font-bold pb-4 pt-2">Project MAYBACH</h3>
+            <img class="w-11/12 mx-auto rounded-md shadow-md" src="img/mercedes-may.png" alt="Mercedes Project MAYBACH">
+            <p class="mt-4 text-center p-4">
+                En 2021, Virgil y Mercedes-Benz lanzaron el “Maybach by Virgil Abloh”, un sedán de lujo conceptual que reimaginaba el modelo clásico de la Maybach S-Class. Con un diseño en dos tonos, negro y beige, este auto combinaba lujo con la estética minimalista de Abloh. Este fue su último proyecto con Mercedes-Benz y se lanzó una edición limitada inspirada en su diseño.
             </p>
             <!--iframe-->
         </article>
 
-        <article>
-            <h3>Maybach S680 Virgil Abloh Edition</h3>
-            <img src="img/mercedes-s680.png" alt="Mercedes Maybach S680 Virgil Abloh Edition">
-            <p>
-                (2024)
+        <article class="bg-white rounded-md bg-opacity-85 mb-8">
+            <h3 class="text-center text-2xl font-bold pb-4 pt-2">Maybach S680 Virgil Abloh Edition</h3>
+            <img class="w-11/12 mx-auto rounded-md shadow-md" src="img/mercedes-s680.png" alt="Mercedes Maybach S680 Virgil Abloh Edition">
+            <p class="mt-4 text-center p-4">
+                El “Maybach S680 Virgil Abloh Edition” fue lanzado en 2022, después del fallecimiento de Abloh. Este sedán de lujo de edición limitada tiene un acabado en dos tonos (negro y arena), y es un claro reflejo del estilo distintivo de Abloh. Solo se produjeron 150 unidades, destacándose por su lujo y personalización.
             </p>
             <!--iframe-->
         </article>
-
+    </div>
 
 
 
     </main>
-    <footer>
-        <!-- Hacer el footer sticky con los dos links al contacto y desarrolladxr-->
-        <a href="mas-sobre-el-desarrollador/index.html"></a>
+    <footer class="fixed bottom-0 right-0 bg-white px-8 py-4 m-2 rounded-full shadow-lg z-30">
+        <a href="mas-sobre-el-desarrollador/index.html" class="text-blue-500 text-5xl hover:text-blue-700">?</a>
     </footer>
 </div>
+
+<!-- Desplegable -->
+<script src="js/desplegable.js"></script>
+
 </body>
 </html>

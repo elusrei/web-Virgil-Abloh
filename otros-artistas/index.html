@@ -2,46 +2,49 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Lelus</title>
+    <title>Virgil x Otros Artistas</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex justify-center items-center min-h-screen">
+<body class="flex justify-center min-h-screen mt-0">
 <div class="container">
 
-<header class="bg-gray-800 text-white p-4 text-center">
-    <h1 class="text-2xl font-bold mb-4">
-        <a href="../index.html" class="hover:text-gray-300">Virgil Abloh</a>
-    </h1>
-    <nav>
-        <ul class="flex flex-row justify-center space-x-4">
-            <li>
-                <a href="../virgil-off-white.html" class="block rounded-3xl overflow-hidden duration-500 relative">
-                    <img src="../img/nav-ow-.png" alt="virgil-off-white" class="w-full h-full object-cover hover:opacity-0 duration-500 z-10">
-                    <img src="../img/nav-ow-hover.png" alt="virgil-off-white-hover" class="w-full h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
-                </a>
-            </li>
-            <li>
-                <a href="../virgil-louis-vuitton.html" class="block rounded-3xl overflow-hidden duration-500 relative">
-                    <img src="../img/nav-lv.png" alt="virgil-louis-vuitton" class="w-full h-full object-cover hover:opacity-0 duration-500 z-10">
-                    <img src="../img/nav-lv-hover.png" alt="virgil-louis-vuitton-hover" class="w-full h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
-                </a>
-            </li>
-            <li>
-                <a href="../virgil-mercedes.html" class="block rounded-3xl overflow-hidden duration-500 relative">
-                    <img src="../img/nav-mercedes.png" alt="virgil-mercedes" class="w-full h-full object-cover hover:opacity-0 duration-500 z-10">
-                    <img src="../img/nav-mercedes-hover.png" alt="virgil-mercedes-hover" class="w-full h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
-                </a>
-            </li>
-            <li>
-                <a href="../otros-artistas/index.html" class="block rounded-3xl overflow-hidden duration-500 relative">
-                    <img src="../img/nav-artistas.png" alt="virgil-con-otros-artistas" class="w-full h-full object-cover hover:opacity-0 duration-500 z-10">
-                    <img src="../img/nav-artistas-hover.png" alt="virgil-con-otros-artistas-hover" class="w-full h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
-                </a>
-            </li>
-        </ul>
-        
-    </nav>
-</header>
+    <header class="bg-black text-white p-4 text-center rounded-3xl mt-4 bg-opacity-90">
+        <h1 class="text-3xl font-bold mt-4 mb-8">
+            <a href="../index.html" class="hover:text-gray-300">Virgil Abloh</a>
+        </h1>
+        <!-- Botón para mostrar/ocultar el menú en móvil -->
+        <button id="menu-toggle" class="md:hidden bg-white bg-opacity-50 py-2 px-8 rounded-lg focus:outline-none">
+            ☰
+        </button>
+        <nav>
+            <ul id="menu" class="flex flex-row justify-center space-x-4 md:flex md:flex-row md:space-x-4 flex-col hidden">
+                <li class="pl-12 py-2 pr-8 md:p-0">
+                    <a href="../virgil-off-white.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="../img/nav-ow-.png" alt="virgil-off-white" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="../img/nav-ow-hover.png" alt="virgil-off-white-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+                <li class="px-8 py-2 md:p-0">
+                    <a href="../virgil-louis-vuitton.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="../img/nav-lv.png" alt="virgil-louis-vuitton" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="../img/nav-lv-hover.png" alt="virgil-louis-vuitton-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+                <li class="px-8 py-2 md:p-0">
+                    <a href="../virgil-mercedes.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="../img/nav-mercedes.png" alt="virgil-mercedes" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="../img/nav-mercedes-hover.png" alt="virgil-mercedes-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+                <li class="px-8 py-2 md:p-0">
+                    <a href="../otros-artistas/index.html" class="block rounded-full overflow-hidden duration-500 relative">
+                        <img src="../img/nav-artistas.png" alt="virgil-con-otros-artistas" class="w-full h-16 md:h-full object-cover hover:opacity-0 duration-500 z-10">
+                        <img src="../img/nav-artistas-hover.png" alt="virgil-con-otros-artistas-hover" class="w-full h-16 md:h-full object-cover absolute top-0 left-0 opacity-0 hover:opacity-100 duration-500 z-20">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     
     <main>
@@ -65,11 +68,62 @@
         </h2>
     </a>
     
+    <section class="bg-gray-100 p-8 rounded-lg mb-10 text-center">
+        <h2 class="text-3xl font-bold text-center mb-6">Virgil Abloh y sus Colaboraciones Artísticas</h2>
+    
+        <!-- Colaboración con Takashi Murakami -->
+        <article class="bg-white p-6 mb-8 rounded-lg shadow-md">
+            <h3 class="text-2xl font-semibold mb-4">Colaboración con Takashi Murakami</h3>
+            <img src="img/virgil-y-takashi.jpeg" alt="Virgil Abloh y Takashi Murakami" class="max-w-full mx-auto rounded-lg mb-4 max-h-96">
+            <p class="mb-4">
+                Virgil Abloh unió fuerzas con Takashi Murakami, uno de los artistas pop más reconocidos de Japón, para una serie de colaboraciones que llevaron su arte a nuevas dimensiones. Juntos, exploraron temas de identidad cultural, la apropiación y la estética del streetwear en exhibiciones visuales que combinaban la audacia de ambos artistas. 
+            </p>
+            <p>
+                La colaboración dio lugar a obras únicas que combinaban los gráficos coloridos y personajes característicos de Murakami con la visión minimalista de Abloh, creando una fusión perfecta entre el arte pop y el lujo moderno. Este proyecto conjunto también fue una declaración sobre cómo el arte puede conectar culturas y generaciones distintas.
+            </p>
+            <iframe class="w-full h-60 mt-4" src="https://www.youtube.com/embed/0GDnqzXrclA?si=sgjhUoR4dzQ5Dr3O" title="Virgil y Murakami en acción" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+    
+        <!-- Colaboración con Samuel Ross (A-Cold-Wall*) -->
+        <article class="bg-white p-6 mb-8 rounded-lg shadow-md">
+            <h3 class="text-2xl font-semibold mb-4">Colaboración con Samuel Ross</h3>
+            <img src="img/virgil-y-samuel.png" alt="Virgil Abloh y Samuel Ross" class="max-w-full max-h-96 mx-auto rounded-lg mb-4">
+            <p class="mb-4">
+                Samuel Ross, fundador de A-Cold-Wall* y protegido de Virgil Abloh, colaboró con él para redefinir el diseño industrial y la moda urbana. Juntos, exploraron las intersecciones entre la estética del trabajo industrial y el lujo accesible, creando piezas que desafiaban las normas tradicionales de la moda.
+            </p>
+            <p>
+                Esta colaboración destacó el enfoque mutuo de ambos diseñadores en crear moda con un trasfondo cultural y social, introduciendo texturas y patrones inspirados en la arquitectura urbana y el brutalismo. La influencia de Abloh ayudó a Ross a expandir su marca mientras ambos desdibujaban las líneas entre la moda de alta costura y el estilo de calle.
+            </p>
+            <iframe class="w-full h-60 mt-4" src="https://www.youtube.com/embed/obobdXY-GA0?si=gIwAbzHTivONKVHA" title="Virgil y Samuel Ross, zoom creativo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            
+        </article>
+    
+        <!-- Colaboración con Heron Preston -->
+        <article class="bg-white p-6 mb-8 rounded-lg shadow-md">
+            <h3 class="text-2xl font-semibold mb-4">Colaboración con Heron Preston</h3>
+            <img src="img/virgil-y-heron.png" alt="Virgil Abloh y Heron Preston" class="max-w-full max-h-96 mx-auto rounded-lg mb-4">
+            <p class="mb-4">
+                Con Heron Preston, otro nombre importante en el diseño urbano, Virgil Abloh desarrolló un diálogo creativo que exploraba temas de sostenibilidad y experimentación con materiales. Juntos, impulsaron la idea de que el streetwear también podía abordar la ética y la responsabilidad social.
+            </p>
+            <p>
+                Su colaboración incluyó prendas y accesorios con un enfoque innovador en materiales reciclados y procesos sostenibles, reflejando un cambio en la industria hacia prácticas más responsables. La combinación de la visión estética de Preston con el enfoque experimental de Abloh resultó en piezas de ropa que trascendían la moda y ofrecían un mensaje más profundo.
+            </p>
+            <iframe class="w-full h-60 mt-4" src="https://www.youtube.com/embed/L9zalrMm4mQ?si=2LI8mVlsN_mQOUPt" title="Virgil y Heron Preston, podcast" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            
+        </article>
+    </section>
+    
+
     </main>
-    <footer>
-        <!-- Hacer el footer sticky con los dos links al contacto y desarrolladxr-->
-        <a href="../mas-sobre-el-desarrollador/index.html">Loguito</a>
+    <footer class="fixed bottom-0 right-0 bg-white px-8 py-4 m-2 rounded-full shadow-lg z-30">
+        <a href="../mas-sobre-el-desarrollador/index.html" class="text-blue-500 text-5xl hover:text-blue-700">?</a>
     </footer>
 </div>
+
+<!-- Desplegable -->
+<script src="../js/desplegable.js"></script>
+
 </body>
 </html>
