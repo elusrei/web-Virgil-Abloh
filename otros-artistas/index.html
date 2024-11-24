@@ -2,11 +2,12 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Virgil x Otros Artistas</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="flex justify-center min-h-screen mt-0">
-<div class="container">
+<div class="container w-3/4">
 
     <header class="bg-black text-white p-4 text-center rounded-3xl mt-4 bg-opacity-90">
         <h1 class="text-3xl font-bold mt-4 mb-8">
@@ -48,68 +49,74 @@
 
     
     <main>
-        <a class="shadow-lg relative block h-96 overflow-hidden group rounded-3xl" href="perfil-kanye.html">
-            <!-- Imagen con el efecto hover solo dentro de la clase de imagen -->
-            <img class="w-full h-full object-cover group-hover:blur-lg group-hover:brightness-90 duration-700" 
-                 src="img/virgil-y-kanye.png" alt="Kanye West y Virgil Abloh">
-            <!-- Texto encima de la imagen, sin efectos de hover -->
-            <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold z-10 hover:text-5xl duration-1000">
-                Kanye West
-            </h2>
-        </a>
+        <nav class="flex space-x-4 mx-auto w-11/12 my-4">
+            <a class="shadow-lg relative block h-72 overflow-hidden group rounded-3xl" href="perfil-kanye.html">
+                <!-- Imagen con el efecto hover solo dentro de la clase de imagen -->
+                <img class="w-full h-full object-cover group-hover:blur-lg group-hover:brightness-90 duration-700" 
+                     src="img/virgil-y-kanye.png" alt="Kanye West y Virgil Abloh">
+                <!-- Texto encima de la imagen, sin efectos de hover -->
+                <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold z-10 hover:text-5xl duration-1000">
+                    Kanye West
+                </h2>
+            </a>
         
-     <a class="shadow-lg relative block h-96 overflow-hidden group rounded-3xl" href="perfil-travis.html">
-        <!-- Imagen con el efecto hover solo dentro de la clase de imagen -->
-        <img class="w-full h-full object-cover group-hover:blur-lg group-hover:brightness-90 duration-700" 
-             src="img/virgil-y-travis.png" alt="Travis Scott">
-        <!-- Texto encima de la imagen, sin efectos de hover -->
-        <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold z-10 hover:text-5xl duration-1000">
-            Travis Scott
-        </h2>
-    </a>
+            <div class="w-2/5 h-72 bg-gray-200 rounded-3xl shadow-lg">
+
+                <a href="index.html" class="">
+                    <h2 class="mt-32 text-white text-center text-3xl font-bold z-10 hover:text-5xl duration-1000">
+                        Artistas Relacionados
+                    </h2></a>
+
+            </div> 
+        
+            <a class="shadow-lg relative block h-72 overflow-hidden group rounded-3xl" href="perfil-travis.html">
+                <!-- Imagen con el efecto hover solo dentro de la clase de imagen -->
+                <img class="w-full h-full object-cover group-hover:blur-lg group-hover:brightness-90 duration-700" 
+                     src="img/virgil-y-travis.png" alt="Travis Scott">
+                <!-- Texto encima de la imagen, sin efectos de hover -->
+                <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold z-10 hover:text-5xl duration-1000">
+                    Travis Scott
+                </h2>
+            </a>
+        </nav>
+        
     
-    <section class="bg-gray-100 p-8 rounded-lg mb-10 text-center">
+    <section class="bg-gray-100 p-8 rounded-lg mb-10">
         <h2 class="text-3xl font-bold text-center mb-6">Virgil Abloh y sus Colaboraciones Artísticas</h2>
     
         <!-- Colaboración con Takashi Murakami -->
         <article class="bg-white p-6 mb-8 rounded-lg shadow-md">
-            <h3 class="text-2xl font-semibold mb-4">Colaboración con Takashi Murakami</h3>
+            <h3 class="text-2xl font-semibold mb-4 text-center">Colaboración con Takashi Murakami</h3>
+            <div class="flex flex-row">
             <img src="img/virgil-y-takashi.jpeg" alt="Virgil Abloh y Takashi Murakami" class="max-w-full mx-auto rounded-lg mb-4 max-h-96">
-            <p class="mb-4">
-                Virgil Abloh unió fuerzas con Takashi Murakami, uno de los artistas pop más reconocidos de Japón, para una serie de colaboraciones que llevaron su arte a nuevas dimensiones. Juntos, exploraron temas de identidad cultural, la apropiación y la estética del streetwear en exhibiciones visuales que combinaban la audacia de ambos artistas. 
-            </p>
-            <p>
-                La colaboración dio lugar a obras únicas que combinaban los gráficos coloridos y personajes característicos de Murakami con la visión minimalista de Abloh, creando una fusión perfecta entre el arte pop y el lujo moderno. Este proyecto conjunto también fue una declaración sobre cómo el arte puede conectar culturas y generaciones distintas.
-            </p>
-            <iframe class="w-full h-60 mt-4" src="https://www.youtube.com/embed/0GDnqzXrclA?si=sgjhUoR4dzQ5Dr3O" title="Virgil y Murakami en acción" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="p-2 pl-4"> Virgil Abloh, una de las mentes más innovadoras de la moda contemporánea, y Takashi Murakami, un ícono indiscutible del arte pop japonés, decidieron cruzar sus mundos para crear algo completamente único. Esta colaboración no fue simplemente un encuentro casual de talentos; fue una explosión cultural que redefinió los límites entre el arte, el diseño y el streetwear. Juntos, Abloh y Murakami no solo rompieron las barreras tradicionales, sino que también construyeron un puente entre el lujo moderno y la estética vibrante del pop asiático. Las exhibiciones que presentaron eran mucho más que simples obras de arte o prendas de moda; cada creación contaba una historia, invitando a reflexionar sobre temas como la identidad cultural, la apropiación en la moda y la relación entre el arte y la sociedad contemporánea. </p> 
+            <p class="p-2"> El resultado fue una fusión perfecta entre el arte pop y el lujo moderno, con los gráficos coloridos y personajes característicos de Murakami combinados con la visión minimalista de Abloh. Este proyecto conjunto no solo dejó una huella estética, sino que también fue una declaración de cómo el arte puede conectar culturas y generaciones, demostrando que la creatividad no tiene fronteras ni idiomas. Lo que lograron juntos fue un manifiesto visual que trascendió los límites de la moda y el arte, invitando a nuevas generaciones a pensar más allá de lo convencional y a abrazar la diversidad como una fuente de riqueza creativa. </p>
+            </div>
+            <iframe class="w-6/12 h-96 mt-4 mx-auto rounded-lg"  src="https://www.youtube.com/embed/0GDnqzXrclA?si=sgjhUoR4dzQ5Dr3O" title="Virgil y Murakami en acción" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </article>
     
         <!-- Colaboración con Samuel Ross (A-Cold-Wall*) -->
         <article class="bg-white p-6 mb-8 rounded-lg shadow-md">
-            <h3 class="text-2xl font-semibold mb-4">Colaboración con Samuel Ross</h3>
+            <h3 class="text-2xl font-semibold mb-4 text-center">Colaboración con Samuel Ross</h3>
+            <div class="flex flex-row">
             <img src="img/virgil-y-samuel.png" alt="Virgil Abloh y Samuel Ross" class="max-w-full max-h-96 mx-auto rounded-lg mb-4">
-            <p class="mb-4">
-                Samuel Ross, fundador de A-Cold-Wall* y protegido de Virgil Abloh, colaboró con él para redefinir el diseño industrial y la moda urbana. Juntos, exploraron las intersecciones entre la estética del trabajo industrial y el lujo accesible, creando piezas que desafiaban las normas tradicionales de la moda.
-            </p>
-            <p>
-                Esta colaboración destacó el enfoque mutuo de ambos diseñadores en crear moda con un trasfondo cultural y social, introduciendo texturas y patrones inspirados en la arquitectura urbana y el brutalismo. La influencia de Abloh ayudó a Ross a expandir su marca mientras ambos desdibujaban las líneas entre la moda de alta costura y el estilo de calle.
-            </p>
-            <iframe class="w-full h-60 mt-4" src="https://www.youtube.com/embed/obobdXY-GA0?si=gIwAbzHTivONKVHA" title="Virgil y Samuel Ross, zoom creativo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="p-2 pl-4"> Samuel Ross, el joven genio detrás de A-Cold-Wall* y protegido de Virgil Abloh, se unió al maestro para llevar el diseño industrial y la moda urbana a nuevas alturas. Esta colaboración no solo significó un cruce de caminos entre dos mentes brillantes, sino que también rompió las barreras entre el lujo y lo accesible. Juntos, exploraron las complejidades de la estética del trabajo industrial, esa que proviene de los ambientes más duros y funcionales, y la fusionaron con la elegancia de la moda contemporánea, creando piezas que desafiaban las convenciones de la industria y ofrecían una visión fresca de lo que podía ser el diseño urbano de alta gama. </p> 
+            <p class="p-2"> Lo que hizo única a esta colaboración fue la profunda conexión que ambos diseñadores compartían respecto a la cultura y la sociedad. Cada prenda era más que una pieza de ropa; era una declaración visual. Con texturas y patrones inspirados en la arquitectura urbana y el brutalismo, Samuel Ross y Virgil Abloh trajeron un enfoque socialmente consciente a la moda, que no solo se veía bien, sino que también hablaba de las realidades urbanas. Gracias a la influencia de Abloh, Ross pudo expandir su marca, llevando su visión más allá de las calles, mientras ambos desdibujaban las fronteras entre el lujo exclusivo y el estilo de calle, creando una estética que reflejaba la vida real de las ciudades. </p>
+            </div>
+            <iframe class="w-6/12 h-96 mt-4 mx-auto rounded-lg"  src="https://www.youtube.com/embed/obobdXY-GA0?si=gIwAbzHTivONKVHA" title="Virgil y Samuel Ross, zoom creativo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             
         </article>
     
         <!-- Colaboración con Heron Preston -->
         <article class="bg-white p-6 mb-8 rounded-lg shadow-md">
-            <h3 class="text-2xl font-semibold mb-4">Colaboración con Heron Preston</h3>
+            <h3 class="text-2xl font-semibold mb-4 text-center">Colaboración con Heron Preston</h3>
+            <div class="flex flex-row">
             <img src="img/virgil-y-heron.png" alt="Virgil Abloh y Heron Preston" class="max-w-full max-h-96 mx-auto rounded-lg mb-4">
-            <p class="mb-4">
-                Con Heron Preston, otro nombre importante en el diseño urbano, Virgil Abloh desarrolló un diálogo creativo que exploraba temas de sostenibilidad y experimentación con materiales. Juntos, impulsaron la idea de que el streetwear también podía abordar la ética y la responsabilidad social.
-            </p>
-            <p>
-                Su colaboración incluyó prendas y accesorios con un enfoque innovador en materiales reciclados y procesos sostenibles, reflejando un cambio en la industria hacia prácticas más responsables. La combinación de la visión estética de Preston con el enfoque experimental de Abloh resultó en piezas de ropa que trascendían la moda y ofrecían un mensaje más profundo.
-            </p>
-            <iframe class="w-full h-60 mt-4" src="https://www.youtube.com/embed/L9zalrMm4mQ?si=2LI8mVlsN_mQOUPt" title="Virgil y Heron Preston, podcast" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="p-2 pl-4"> Con Heron Preston, otro de los nombres clave en el diseño urbano, Virgil Abloh desarrolló una conversación creativa que exploraba no solo la moda, sino también temas más trascendentales como la sostenibilidad y la experimentación con materiales. Juntos, demostraron que el streetwear no tenía por qué ser solo una expresión estética, sino que también podía ser un vehículo para abordar cuestiones éticas y de responsabilidad social. Esta colaboración no solo redefinió lo que entendemos por moda urbana, sino que también abrió un camino hacia la reflexión sobre cómo la industria de la moda podría contribuir a un mundo más consciente y sostenible. </p> 
+            <p class="p-2"> El resultado de este trabajo conjunto fue una colección de prendas y accesorios que pusieron énfasis en materiales reciclados y procesos sostenibles, lo que reflejó una tendencia creciente en la industria hacia prácticas más responsables y conscientes del medio ambiente. La fusión de la visión estética de Preston, que se caracteriza por su enfoque urbano y utilitario, con el enfoque experimental de Abloh, resultó en piezas de ropa que trascendían lo superficial de la moda. Cada diseño no solo era visualmente impactante, sino que llevaba consigo un mensaje más profundo, uno que instaba a repensar cómo la moda puede ser una herramienta para el cambio social y ambiental. </p>
+            </div>
+            <iframe class="w-6/12 h-96 mt-4 mx-auto rounded-lg" src="https://www.youtube.com/embed/L9zalrMm4mQ?si=2LI8mVlsN_mQOUPt" title="Virgil y Heron Preston, podcast" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             
         </article>

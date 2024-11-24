@@ -2,11 +2,12 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kanye West | web sobre Virgil Abloh</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="flex justify-center items-center min-h-screen">
-<div class="container">
+<div class="container w-3/4">
 
     <header class="bg-black text-white p-4 text-center rounded-3xl mt-4 bg-opacity-90">
         <h1 class="text-3xl font-bold mt-4 mb-8">
@@ -47,6 +48,37 @@
     </header>
 
     <main>
+        <nav class="flex space-x-4 mx-auto w-11/12 my-4">
+            <a class="shadow-lg relative block h-72 overflow-hidden group rounded-3xl" href="perfil-kanye.html">
+                <!-- Imagen con el efecto hover solo dentro de la clase de imagen -->
+                <img class="w-full h-full object-cover group-hover:blur-lg group-hover:brightness-90 duration-700" 
+                     src="img/virgil-y-kanye.png" alt="Kanye West y Virgil Abloh">
+                <!-- Texto encima de la imagen, sin efectos de hover -->
+                <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold z-10 hover:text-5xl duration-1000">
+                    Kanye West
+                </h2>
+            </a>
+        
+            <div class="w-2/5 h-72 bg-gray-200 rounded-3xl shadow-lg">
+
+                <a href="index.html" class="my-auto">
+                    <h2 class="mt-32 text-white text-center text-3xl font-bold z-10 hover:text-5xl duration-1000 mx-4">
+                        Artistas Relacionados
+                    </h2></a>
+
+            </div> 
+        
+            <a class="shadow-lg relative block h-72 overflow-hidden group rounded-3xl" href="perfil-travis.html">
+                <!-- Imagen con el efecto hover solo dentro de la clase de imagen -->
+                <img class="w-full h-full object-cover group-hover:blur-lg group-hover:brightness-90 duration-700" 
+                     src="img/virgil-y-travis.png" alt="Travis Scott">
+                <!-- Texto encima de la imagen, sin efectos de hover -->
+                <h2 class="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold z-10 hover:text-5xl duration-1000">
+                    Travis Scott
+                </h2>
+            </a>
+        </nav>
+
         <!-- 1 -->
         <div class="h-96 relative max-w-[calc(3*18rem)] mx-auto my-8">
         <img class="h-80 min-w-min absolute top-0 right-0"
@@ -77,8 +109,7 @@
                 </div>
         
                 <!-- VIDEO CANCION -->
-                <iframe class="w-full h-60 md:pl-5 mt-4"
-                         src="https://www.youtube.com/embed/5hthMeEqf40?si=AtqaTg3Kuy3H1Std&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="h-72 px-4 my-12 w-full" src="https://open.spotify.com/embed/track/5nPOM0nFRAJ3XI8xCxNAzO?utm_source=generator&theme=0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         
                 <p class="col-span-2 text-center md:text-start md:absolute md:bottom-0 md:pl-5 mt-4 md:mt-0">
                     Kanye West, rapero, diseñador y filósofo autodidacta, conocido por redefinir la moda... y la modestia. Entre hits y polémicas, tiene la extraña habilidad de compararse con figuras históricas, lanzar zapatillas que parecen del futuro y siempre recordar al mundo que "Kanye es Kanye."
@@ -88,9 +119,9 @@
         
         
 
-        <!-- VIDEO VIVO -->
-        <iframe class="w-full h-96 my-20"
-                src="https://www.youtube.com/embed/_ABk7TmjnVk?si=Br3fxz8S_ZYnf3ZG" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- Trailer Documental -->
+        <iframe class="w-2/4 h-96 my-20 mx-auto rounded-3xl"
+        src="https://www.youtube.com/embed/X3d5rT7FGLE?si=8DJ9fZ7YZEERiegR" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         <!-- 3 -->
         <article class="max-w-[calc(3*18rem)] mx-auto">
