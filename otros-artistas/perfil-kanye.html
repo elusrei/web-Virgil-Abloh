@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="flex justify-center items-center min-h-screen">
-<div class="container w-3/4">
+<div class="container w-full md:w-3/4">
 
     <header class="bg-black text-white p-4 text-center rounded-3xl mt-4 bg-opacity-90">
         <h1 class="text-3xl font-bold mt-4 mb-8">
@@ -47,9 +47,10 @@
         </nav>
     </header>
 
-    <main>
-        <nav class="flex space-x-4 mx-auto w-11/12 my-4">
-            <a class="shadow-lg relative block h-72 overflow-hidden group rounded-3xl" href="perfil-kanye.html">
+    <main class="mb-20">
+        <nav class="flex flex-col md:flex-row md:space-x-4 mx-auto w-full md:w-11/12 my-4">
+
+            <a class="shadow-lg relative block h-32 md:h-72 overflow-hidden group rounded-3xl" href="perfil-kanye.html">
                 <!-- Imagen con el efecto hover solo dentro de la clase de imagen -->
                 <img class="w-full h-full object-cover group-hover:blur-lg group-hover:brightness-90 duration-700" 
                      src="img/virgil-y-kanye.png" alt="Kanye West y Virgil Abloh">
@@ -59,16 +60,16 @@
                 </h2>
             </a>
         
-            <div class="w-2/5 h-72 bg-gray-200 rounded-3xl shadow-lg">
+            <div class="w-full md:w-2/5 h-32 md:h-72 bg-orange-300 rounded-3xl shadow-lg">
 
-                <a href="index.html" class="my-auto">
-                    <h2 class="mt-32 text-white text-center text-3xl font-bold z-10 hover:text-5xl duration-1000 mx-4">
+                <a href="index.html" class="">
+                    <h2 class="mt-12 md:mt-32 text-white text-center text-3xl font-bold z-10 hover:text-5xl duration-1000">
                         Artistas Relacionados
                     </h2></a>
 
             </div> 
         
-            <a class="shadow-lg relative block h-72 overflow-hidden group rounded-3xl" href="perfil-travis.html">
+            <a class="shadow-lg relative block h-32 md:h-72 overflow-hidden group rounded-3xl" href="perfil-travis.html">
                 <!-- Imagen con el efecto hover solo dentro de la clase de imagen -->
                 <img class="w-full h-full object-cover group-hover:blur-lg group-hover:brightness-90 duration-700" 
                      src="img/virgil-y-travis.png" alt="Travis Scott">
@@ -81,15 +82,15 @@
 
         <!-- 1 -->
         <div class="h-96 relative max-w-[calc(3*18rem)] mx-auto my-8">
-        <img class="h-80 min-w-min absolute top-0 right-0"
+        <img class="hidden md:block h-80 min-w-min absolute top-0 right-0"
             src="img/kanye-concierto.png" alt="recital en vivo de kanye"> <!--horizontal-->
-        <img class="max-h-72 absolute bottom-0 left-0 z-10"
+        <img class="w-full md:w-auto md:max-h-72 absolute bottom-0 left-0 z-10"
             src="img/kanye-perfil.png" alt="perfil del kanye"> <!--cuadrado-->
         </div>
 
         <!-- 2 -->
         <div class="grid grid-cols-1 md:grid-cols-3 h-full max-w-[calc(3*18rem)] mx-auto my-8">
-            <img class="max-w-72 mx-auto" 
+            <img class="hidden md:block max-w-72 mx-auto" 
                 src="img/kanye-outfit.png" alt="kanye west vestido de yeezy"><!--Vertical-->
             
             <article class="col-span-1 md:col-start-2 md:col-span-2 relative">
@@ -109,9 +110,9 @@
                 </div>
         
                 <!-- VIDEO CANCION -->
-                <iframe class="h-72 px-4 my-12 w-full" src="https://open.spotify.com/embed/track/5nPOM0nFRAJ3XI8xCxNAzO?utm_source=generator&theme=0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe class="h-72 px-4 my-8 md:my-12 w-full" src="https://open.spotify.com/embed/track/5nPOM0nFRAJ3XI8xCxNAzO?utm_source=generator&theme=0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         
-                <p class="col-span-2 text-center md:text-start md:absolute md:bottom-0 md:pl-5 mt-4 md:mt-0">
+                <p class="col-span-2 text-center md:text-start md:absolute md:bottom-0 px-2 px-0 md:pl-5 md:mt-4 md:mt-0">
                     Kanye West, rapero, diseñador y filósofo autodidacta, conocido por redefinir la moda... y la modestia. Entre hits y polémicas, tiene la extraña habilidad de compararse con figuras históricas, lanzar zapatillas que parecen del futuro y siempre recordar al mundo que "Kanye es Kanye."
                 </p>
         </article>
@@ -120,15 +121,15 @@
         
 
         <!-- Trailer Documental -->
-        <iframe class="w-2/4 h-96 my-20 mx-auto rounded-3xl"
+        <iframe class="w-full md:w-2/4 h-96 my-12 md:my-20 mx-auto rounded-3xl"
         src="https://www.youtube.com/embed/X3d5rT7FGLE?si=8DJ9fZ7YZEERiegR" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         <!-- 3 -->
-        <article class="max-w-[calc(3*18rem)] mx-auto">
-            <h3 class="font-bold text-center text-5xl">Yeezy</h3>
-            <div class="grid grid-cols-3 relative">
-                <img src="img/kanye-logo.png" alt="logo adidas yeezy">
-                <p class="col-start-2 col-span-2 absolute bottom-0 pl-5 max-h-32 overflow-y-auto">
+        <article class="w-full md:max-w-[calc(3*18rem)] mx-auto">
+            <h3 class="font-bold text-center text-5xl mb-4 md:mb-0">Yeezy</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 md:relative">
+                <img class="w-full md:w-auto" src="img/kanye-logo.png" alt="logo adidas yeezy">
+                <p class="md:col-start-2 md:col-span-2 md:absolute md:bottom-0 p-4 md:p-0 md:pl-5 md:max-h-32">
                     Descubre las Yeezy, donde innovación y estilo se encuentran en cada paso. Con un diseño futurista y materiales de máxima calidad, nuestras zapatillas ofrecen una comodidad inigualable y un look que trasciende tendencias. Únete al movimiento Yeezy y lleva tu estilo al siguiente nivel. ¡Sé parte de lo exclusivo!
                 </p>
             </div>
@@ -145,7 +146,27 @@
 
     </main>
     <footer class="fixed bottom-0 right-0 bg-white px-8 py-4 m-2 rounded-full shadow-lg z-30">
-        <a href="../mas-sobre-el-desarrollador/index.html" class="text-blue-500 text-5xl hover:text-blue-700">?</a>
+        <div class="relative group">
+            <!-- Icono -->
+            <a href="#" class="text-blue-500 text-5xl hover:text-blue-700">
+                ?
+            </a>
+    
+            <!-- Menú desplegable (hidden por defecto) -->
+            <div class="absolute bottom-full mb-2 left-1/2 transform -translate-x-2/3 hidden group-hover:block bg-white border rounded-lg shadow-md p-4 w-80">
+                <p class="text-xs pr-8">
+                    En honor a <a href="https://virgilabloh.com/" class="text-blue-500 hover:text-blue-700 underline font-semibold transition-colors duration-300">Virgil Abloh</a>
+                </p>
+                
+                <p class="text-xs pr-8">Sitio generado para la catedra Informática General, de la carrera en Artes Multimediales. 
+                </p>
+                
+                <ul>
+                    <li><a href="../mas-sobre-el-desarrollador/index.html" class="block text-blue-500 hover:text-blue-700">Ver más sobre el desarrollador</a></li>
+                    <li><a href="../mas-sobre-el-desarrollador/contactarse.html" class="block text-blue-500 hover:text-blue-700">Contactarse con el desarrollador</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
 </div>
 
